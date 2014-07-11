@@ -3,6 +3,6 @@
 <title>Hello World!</title>
 </head>
 <body>
-<?php echo 'Amazon Server Test Success!!' ?>
+<? queryTest("test", "SELECT * FROM USER;") ?>
 </body>
 </html>
