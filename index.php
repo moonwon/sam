@@ -7,7 +7,7 @@
   if ($conn) {
     echo "DB Connected";
     
-    $result = mysql_query('SELECT * FROM user');
+    $result = mysql_query("SELECT * FROM user", $conn);
     
     if ($result) {
       echo "<br>QUERY SUCCESS";
