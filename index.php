@@ -8,6 +8,6 @@
 </head>
 <body>
 "query : "
-<? queryTest("test", "SELECT * FROM USER;") ?>
+<?php queryTest("test", "SELECT * FROM USER;") ?>
 </body>
 </html>
