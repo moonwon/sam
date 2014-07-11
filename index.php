@@ -1,7 +1,7 @@
 <?
 
   $db_host = "localhost";
-  $db_user = "root";
+  $db_user = "ec2-user";
 
   $conn = mysqli_connect($db_host, $db_user, "", "test");
   if (mysqli_connect_errno($conn)) {
