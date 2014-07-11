@@ -10,9 +10,8 @@
   else {
     $result = mysql_qurry($query);
     
-    while ($field = mysql_fetch_field($result)) {
-      echo $field->name;
-      echo " ";
+    while ($row = mysql_fetch_array($result)) {
+      echo $row[0]."&nbsp;&nbsp;".$row[1]."<br>";
     }
   }
 
