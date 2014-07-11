@@ -1,3 +1,7 @@
+<? 
+ include "queryFuctions.php"
+?>
+
 <html>
 <head>
 <title>Hello World!</title>
