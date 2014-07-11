@@ -10,8 +10,9 @@
     $result = mysql_qurry("SELECT * FROM user", $conn);
     
     if ($result) {
+      echo "<br>QUERY SUCCESS";
       while ($row = mysql_fetch_array($result)) {
-        echo "<br>row : ".$row[0]."<br>";
+        echo "row : ".$row[0]."<br>";
       }
     }
     else {
