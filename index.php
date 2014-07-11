@@ -1,5 +1,4 @@
 <?
-fuction queryTest($db_name, $query) {
 
   $db_host = "localhost";
   $db_user = "root";
@@ -16,5 +15,5 @@ fuction queryTest($db_name, $query) {
       echo " ";
     }
   }
-}
+
 ?>
