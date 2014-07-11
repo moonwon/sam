@@ -11,7 +11,7 @@
     $result = mysql_qurry("SELECT * FROM USER;");
     
     while ($row = mysql_fetch_array($result)) {
-      echo "a";
+      echo $row[0];
     }
   }
 
