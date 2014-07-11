@@ -9,8 +9,13 @@
     
     $result = mysql_qurry("SELECT * FROM user", $conn);
     
-    while ($row = mysql_fetch_array($result)) {
-      echo "<br>row : ".$row[0]."<br>";
+    if ($result) {
+      while ($row = mysql_fetch_array($result)) {
+        echo "<br>row : ".$row[0]."<br>";
+      }
+    }
+    else {
+      echo "<br>QUERY ERROR";
     }
   }
   else {
