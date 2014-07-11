@@ -3,7 +3,7 @@
   $db_host = "localhost";
   $db_user = "ec2-user";
 
-  $conn = mysqli_connect($db_host, $db_user, "", "test");
+  $conn = mysql_connect($db_host, $db_user, "", "test");
   if ($conn) {
     echo "DB Connected";
     
