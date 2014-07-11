@@ -7,7 +7,7 @@
   if ($conn) {
     echo "DB Connected";
     
-    $result = mysql_qurry("SELECT * FROM user;");
+    $result = mysql_qurry("SELECT * FROM user");
     
     while ($row = mysql_fetch_array($result)) {
       echo "<br>".$row[0]."<br>";
