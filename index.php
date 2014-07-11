@@ -5,7 +5,7 @@
 
   $conn = mysql_connect($db_host, $db_user, "", "test");
   if ($conn) {
-    echo "DB Connected";
+    echo "DB Connected!";
     
     $result = mysql_query("select * from user", $conn);
     
