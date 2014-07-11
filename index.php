@@ -3,7 +3,7 @@
   $db_host = "localhost";
   $db_user = "ec2-user";
 
-  $conn = mysql_connect($db_host, $db_user, "");
+  $conn = mysqli_connect($db_host, $db_user, "");
   if ($conn) {
     echo "DB Connected!";
     
@@ -13,7 +13,7 @@
     if ($result) {
       echo "<br>QUERY SUCCESS";
       while ($row = mysql_fetch_array($result)) {
-        echo "row : ".$row[0]."<br>";
+        echo "row : ".$row[0]." ".$row[1]."<br>";
       }
     }
     else {
