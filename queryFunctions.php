@@ -17,6 +17,6 @@ fuction queryTest($db_name, $query) {
       echo " ";
     }
   }
-}
+} 
 
 ?>
