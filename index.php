@@ -3,10 +3,11 @@
   $db_host = "localhost";
   $db_user = "ec2-user";
 
-  $conn = mysql_connect($db_host, $db_user, "", "test");
+  $conn = mysql_connect($db_host, $db_user, "");
   if ($conn) {
     echo "DB Connected!";
     
+    mysql_select_db("test");
     $result = mysql_query("select * from user", $conn);
     
     if ($result) {
