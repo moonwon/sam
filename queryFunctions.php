@@ -1,6 +1,6 @@
 <?php
 
-fuction testQuery($db_name, $query) {
+fuction queryTest($db_name, $query) {
 
   $db_host = "localhost";
   $db_user = "root";
