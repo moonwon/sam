@@ -11,9 +11,9 @@
     $result = mysql_query("select * from user", $conn);
     
     if ($result) {
-      echo "<br>QUERY SUCCESS";
+      echo "<br>QUERY SUCCESS<br>";
       while ($row = mysql_fetch_array($result)) {
-        echo "row : ".$row[0]." ".$row[1]."<br>";
+        echo "row".$row[0]." : ".$row[1]."<br>";
       }
     }
     else {
