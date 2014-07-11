@@ -1,5 +1,5 @@
 <? 
- include "queryFuctions.php"
+ include "queryFunctions.php"
 ?>
 
 <html>
